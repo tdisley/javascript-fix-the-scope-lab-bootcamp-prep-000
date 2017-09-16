@@ -4,8 +4,9 @@ function myAnimal() {
   return animal
 }
 
-function yourAnimal() {
+function yourAnimal(ani2) {
   // How can we make sure that this function
+  animal = ani2;
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
   return animal
