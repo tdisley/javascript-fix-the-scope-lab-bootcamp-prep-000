@@ -31,4 +31,4 @@ function funkyFunction () {
 
 var theFunk = funkyFunction();
 theFunk();
-console.log(theFunk);
+console.log(theFunk());
